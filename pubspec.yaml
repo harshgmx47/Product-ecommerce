@@ -1,0 +1,28 @@
+name: ecom
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.3.1
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  http: ^1.2.1
+  image_picker: ^1.1.2
+  open_file: ^3.3.2
+  quickalert: ^1.1.0
+  shared_preferences: 
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
